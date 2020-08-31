@@ -1,0 +1,22 @@
+
+
+#Test register
+POST http://127.0.0.1:8000/dj-rest-auth/registration/ 
+Content-Type: application/json
+
+{
+    "username": "ozarka",
+    "email": "ozarka@gmail.com",
+    "password1": "Ukraine3030--aa",
+    "password2": "Ukraine3030--aa",
+    
+}
+
+
+
+
+
+#Get the Post data
+GET http://127.0.0.1:8000/api/posts/ 
+Content-Type: application/json
+
